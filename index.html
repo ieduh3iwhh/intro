@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>覃欣月 · 个人主页</title>
+  <meta name="description" content="覃欣月（西南科技大学 软件2406班）的个人主页：简介、技能、项目与联系方式。">
+  <link rel="preload" href="assets/fonts/bebas-neue-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/eb-garamond-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero" id="top">
+    <div class="hero-media">
+      <img class="hero-img is-on" src="assets/hero-2.jpg" alt="黑色天空下的白色建筑一角" width="1920" height="1080" fetchpriority="high">
+      <img class="hero-img" src="assets/hero-1.jpg" alt="灰雾笼罩的红色悬索桥塔" width="1920" height="1080" loading="lazy">
+      <img class="hero-img" src="assets/hero-3.jpg" alt="黑白弧形玻璃穹顶的结构线条" width="1920" height="1080" loading="lazy">
+      <div class="hero-scrim" aria-hidden="true"></div>
+    </div>
+
+    <nav class="hero-nav" aria-label="主导航" data-reveal>
+      <a class="emblem" href="#top">QINXINYUE</a>
+      <ul class="nav-links">
+        <li><a href="#about">关于</a></li>
+        <li><a href="#work">项目</a></li>
+        <li><a href="#contact">联系</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-foot">
+      <div class="hero-support" data-reveal>
+        <p>覃欣月 · 西南科技大学 软件 2406 班</p>
+        <p>写代码，也写点别的。</p>
+      </div>
+      <a class="hero-action" href="#work" data-reveal>看看项目</a>
+    </div>
+
+    <h1 class="monument" data-reveal>QINXINYUE</h1>
+  </header>
+
+  <main>
+
+    <section class="about" id="about" aria-label="关于我">
+      <div class="facts" data-reveal>
+        <div class="fact">
+          <span class="fact-label">姓名</span>
+          <span class="fact-value">覃欣月</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">学号</span>
+          <span class="fact-value">5120243018</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">院校</span>
+          <span class="fact-value">西南科技大学</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">班级</span>
+          <span class="fact-value">软件 2406 班</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">方向</span>
+          <span class="fact-value">前端开发与创意编程</span>
+        </div>
+      </div>
+
+      <div class="about-copy" data-reveal>
+        <p class="about-lead">我是覃欣月，来自西南科技大学软件 2406 班。课程作业之外，自己搭博客、写小工具、折腾开发环境。</p>
+        <p class="about-body">这个页面是我的一个实验——用 HTML、CSS 和 JavaScript 从零写成，放了我的简介、技能、项目和联系方式。欢迎来看看，也欢迎找我聊聊。</p>
+        <a class="about-action" href="#contact">有事找我</a>
+      </div>
+
+      <figure class="about-photo" data-reveal>
+        <img src="assets/about.jpg" alt="黄昏的湖面上停着一艘皮划艇" width="1000" height="1250" loading="lazy">
+        <figcaption>课余时间，喜欢去湖边。</figcaption>
+      </figure>
+
+      <div class="skills" data-reveal>
+        <p class="skills-word">技能</p>
+
+        <div class="skill-cols">
+        <ul class="skill-list">
+          <li><span>HTML&CSS</span><span class="soft">熟练</span></li>
+          <li><span>JavaScript</span><span class="soft">熟练</span></li>
+          <li><span>TypeScript</span><span class="soft">了解</span></li>
+          <li><span>Python</span><span class="soft">熟练</span></li>
+          <li><span>Java</span><span class="soft">熟悉</span></li>
+          <li><span>SQL</span><span class="soft">熟悉</span></li>
+        </ul>
+        <ul class="skill-list">
+          <li><span>Git</span><span class="soft">熟练</span></li>
+          <li><span>Linux</span><span class="soft">熟悉</span></li>
+          <li><span>Vue</span><span class="soft">熟悉</span></li>
+          <li><span>Node.js</span><span class="soft">熟悉</span></li>
+          <li><span>Figma</span><span class="soft">了解</span></li>
+          <li><span>Docker</span><span class="soft">了解</span></li>
+        </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work" aria-label="项目">
+      <h2 class="work-heading" data-reveal>项目</h2>
+
+      <article class="project p1" data-reveal>
+        <button class="project-open" data-project="blog" aria-haspopup="dialog">
+          <span class="project-name">个人博客</span>
+          <span class="frame"><img src="assets/work-1.jpg" alt="阳台与窗户排列的白色公寓楼立面" width="1200" height="800" loading="lazy"></span>
+        </button>
+        <p class="project-desc">用 Hexo 搭建，部署在 GitHub Pages。</p>
+      </article>
+
+      <article class="project p2" data-reveal>
+        <button class="project-open" data-project="library" aria-haspopup="dialog">
+          <span class="project-name">图书借阅系统</span>
+          <span class="frame"><img src="assets/work-2.jpg" alt="教堂内部高耸的白色拱顶与立柱" width="960" height="1200" loading="lazy"></span>
+        </button>
+        <p class="project-desc">课程设计：借阅与归还的完整流程。</p>
+      </article>
+
+      <p class="remark" data-reveal>每个项目都不复杂，<br>但都完整地做完了。</p>
+
+      <article class="project p3" data-reveal>
+        <button class="project-open" data-project="gomoku" aria-haspopup="dialog">
+          <span class="project-name">五子棋网络对战</span>
+          <span class="frame"><img src="assets/work-3.jpg" alt="灰色水面上方的白色拱桥" width="1600" height="900" loading="lazy"></span>
+        </button>
+        <p class="project-desc">局域网双人对战，带一个简单 AI。</p>
+      </article>
+
+      <article class="project p4" data-reveal>
+        <button class="project-open" data-project="weather" aria-haspopup="dialog">
+          <span class="project-name">天气小组件</span>
+          <span class="frame"><img src="assets/work-4.jpg" alt="蓝天下层叠向上的白色现代建筑转角" width="1200" height="800" loading="lazy"></span>
+        </button>
+        <p class="project-desc">调用开放接口的桌面小工具，Python 编写。</p>
+      </article>
+    </section>
+
+    <section class="list" id="contact" aria-label="联系方式">
+      <h2 class="list-heading" data-reveal>有事找我，<br>随时都行</h2>
+
+      <p class="contact-word" data-reveal>联系</p>
+
+      <ul class="contact-table" data-reveal>
+        <li class="crow">
+          <span class="kind">邮箱</span>
+          <span class="place">写信给我</span>
+          <button class="val copy-btn" data-mail="2016353772@qq.com" type="button">2016353772@qq.com</button>
+        </li>
+        <li class="crow">
+          <span class="kind">GitHub</span>
+          <span class="place">代码都在这</span>
+          <a class="val" href="https://github.com/ieduh3iwhh" target="_blank" rel="noopener">github.com/ieduh3iwhh<span class="arrow" aria-hidden="true">↗</span></a>
+        </li>
+        <li class="crow">
+          <span class="kind">博客</span>
+          <span class="place">随手写的笔记</span>
+          <a class="val" href="https://ieduh3iwhh.github.io/" target="_blank" rel="noopener">ieduh3iwhh.github.io<span class="arrow" aria-hidden="true">↗</span></a>
+        </li>
+        <li class="crow">
+          <span class="kind">微博</span>
+          <span class="place">看看日常</span>
+          <a class="val" href="https://weibo.com/u/6931204577/home" target="_blank" rel="noopener">weibo.com/u/6931204577<span class="arrow" aria-hidden="true">↗</span></a>
+        </li>
+        <li class="crow">
+          <span class="kind">QQ 空间</span>
+          <span class="place">打个招呼</span>
+          <a class="val" href="https://user.qzone.qq.com/2016353772" target="_blank" rel="noopener">2016353772<span class="arrow" aria-hidden="true">↗</span></a>
+        </li>
+      </ul>
+
+      <img class="contact-photo" src="assets/contact.jpg" alt="明亮黄墙前走过的一个人影" width="880" height="1100" loading="lazy" data-reveal>
+
+      <form class="msg-form" id="msg-form" data-reveal novalidate>
+        <p class="form-title">或者，在这儿直接留言</p>
+
+        <div class="field">
+          <label for="f-name">怎么称呼</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" placeholder="你的名字" required>
+        </div>
+
+        <div class="field">
+          <label for="f-mail">邮箱</label>
+          <input id="f-mail" name="email" type="email" autocomplete="email" placeholder="name@example.com" required>
+        </div>
+
+        <div class="field">
+          <label for="f-msg">想说的话</label>
+          <textarea id="f-msg" name="message" rows="4" placeholder="随便写点什么都行。" required></textarea>
+        </div>
+
+        <div class="form-foot">
+          <button class="send" type="submit">发送留言</button>
+          <p class="form-note" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="monument footer-name" data-reveal>QINXINYUE</p>
+    <div class="footer-meta" data-reveal>
+      <span>© 2026 覃欣月 · 5120243018</span>
+      <span class="credits">照片来自 Unsplash（Unsplash License），经 picsum.photos 提供，摄影 Rob Bye、Carl Nenzen Loven、Mika Ruusunen、Roman Kraft、Jeff Sheldon、Matthew Wiebe、Julien Moreau、Rodion Kutsaev 等。</span>
+    </div>
+  </footer>
+
+  <dialog class="dlg" id="proj-dialog" aria-labelledby="dlg-title">
+    <button class="dlg-close" type="button" autofocus aria-label="关闭">×</button>
+    <h2 class="dlg-title" id="dlg-title"></h2>
+    <p class="dlg-meta"></p>
+    <p class="dlg-body"></p>
+    <p class="dlg-stack"></p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
